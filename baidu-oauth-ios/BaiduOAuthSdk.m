@@ -91,6 +91,7 @@
 
 - (void) performBaiduOAuthWithApiKey:(NSString *) appApiKey
 {
+    self.view.hidden = NO;
     mpWebView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
     [self.view addSubview:mpWebView];
     self.view.frame = CGRectMake(0, 0, 320, 480);
@@ -98,7 +99,6 @@
     mpWebView.delegate = self;
     self.apiKey = appApiKey;
     NSString *url = [NSString stringWithFormat:@"%@%@", BAIDUOPENIDURL, self.apiKey];
-    NSLog(@"url : %@", url);
     
     url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     url = [url stringByReplacingOccurrencesOfString:@"%25" withString:@"%"];
@@ -111,10 +111,7 @@
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request
  navigationType:(UIWebViewNavigationType)navigationType
 {
-    
-    NSLog(@" hello world! ");
-    
-    
+     
     
     NSURL *url = [request URL];
     NSString *path = [url absoluteString];
@@ -215,6 +212,7 @@
                 if(mpDelegate){
                     [mpDelegate onError:INFOACCESSDENIED];
                     [self dismissModalViewControllerAnimated:YES];
+                    self.view.hidden = YES;
                     ret = NO;
                     
                     [self clearCookies];

@@ -10,4 +10,8 @@
 
 @interface NotesListViewController : UITableViewController
 
+
+- (IBAction)refreshNotesList:(id)sender;
+- (IBAction)newNote:(id)sender;
+
 @end

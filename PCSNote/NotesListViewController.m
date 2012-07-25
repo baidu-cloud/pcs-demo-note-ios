@@ -14,6 +14,16 @@
 
 @implementation NotesListViewController
 
+- (IBAction)refreshNotesList:(id)sender
+{
+    
+}
+
+- (IBAction)newNote:(id)sender
+{
+
+}
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];

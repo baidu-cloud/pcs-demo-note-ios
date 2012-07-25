@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E27EE1CB15BE33CC00C9E4C2 /* NoteContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E27EE1CA15BE33CC00C9E4C2 /* NoteContentViewController.m */; };
+		E29DE97615C00C0500E138FF /* NotesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DE97515C00C0500E138FF /* NotesListViewController.m */; };
+		E29DE97A15C00D8900E138FF /* BaiduOAuthSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DE97915C00D8900E138FF /* BaiduOAuthSdk.m */; };
 		E2E2541815BE2469007E16B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E2541715BE2469007E16B5 /* UIKit.framework */; };
 		E2E2541A15BE2469007E16B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E2541915BE2469007E16B5 /* Foundation.framework */; };
 		E2E2541C15BE2469007E16B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E2541B15BE2469007E16B5 /* CoreGraphics.framework */; };
@@ -15,22 +18,34 @@
 		E2E2542815BE2469007E16B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2542715BE2469007E16B5 /* AppDelegate.m */; };
 		E2E2542B15BE2469007E16B5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E2542915BE2469007E16B5 /* MainStoryboard.storyboard */; };
 		E2E2542E15BE2469007E16B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2542D15BE2469007E16B5 /* ViewController.m */; };
+		E2E2543915BE26AD007E16B5 /* login_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E2543815BE26AD007E16B5 /* login_icon.png */; };
+		E2E2543C15BE27BF007E16B5 /* yi_btn_default_normal_baidu.9.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E2543A15BE27BF007E16B5 /* yi_btn_default_normal_baidu.9.png */; };
+		E2E2543D15BE27BF007E16B5 /* yi_btn_default_pressed_baidu.9.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E2543B15BE27BF007E16B5 /* yi_btn_default_pressed_baidu.9.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E27EE1C915BE33CC00C9E4C2 /* NoteContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteContentViewController.h; sourceTree = "<group>"; };
+		E27EE1CA15BE33CC00C9E4C2 /* NoteContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteContentViewController.m; sourceTree = "<group>"; };
+		E29DE97415C00C0500E138FF /* NotesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesListViewController.h; sourceTree = "<group>"; };
+		E29DE97515C00C0500E138FF /* NotesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesListViewController.m; sourceTree = "<group>"; };
+		E29DE97815C00D8900E138FF /* BaiduOAuthSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduOAuthSdk.h; sourceTree = "<group>"; };
+		E29DE97915C00D8900E138FF /* BaiduOAuthSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduOAuthSdk.m; sourceTree = "<group>"; };
 		E2E2541315BE2469007E16B5 /* PCSNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCSNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E2541715BE2469007E16B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2E2541915BE2469007E16B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2E2541B15BE2469007E16B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E2E2541F15BE2469007E16B5 /* PCSNote-Info.plist */ = {isa = PBXFileReference; path = "PCSNote-Info.plist"; sourceTree = "<group>"; };
+		E2E2541F15BE2469007E16B5 /* PCSNote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCSNote-Info.plist"; sourceTree = "<group>"; };
 		E2E2542115BE2469007E16B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2E2542315BE2469007E16B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2E2542515BE2469007E16B5 /* PCSNote-Prefix.pch */ = {isa = PBXFileReference; path = "PCSNote-Prefix.pch"; sourceTree = "<group>"; };
-		E2E2542615BE2469007E16B5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2E2542515BE2469007E16B5 /* PCSNote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCSNote-Prefix.pch"; sourceTree = "<group>"; };
+		E2E2542615BE2469007E16B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2E2542715BE2469007E16B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E2E2542A15BE2469007E16B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E2E2542C15BE2469007E16B5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E2E2542C15BE2469007E16B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E2E2542D15BE2469007E16B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2E2543815BE26AD007E16B5 /* login_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_icon.png; sourceTree = "<group>"; };
+		E2E2543A15BE27BF007E16B5 /* yi_btn_default_normal_baidu.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yi_btn_default_normal_baidu.9.png; sourceTree = "<group>"; };
+		E2E2543B15BE27BF007E16B5 /* yi_btn_default_pressed_baidu.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yi_btn_default_pressed_baidu.9.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +62,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E29DE97715C00D8800E138FF /* baidu-oauth-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E29DE97815C00D8900E138FF /* BaiduOAuthSdk.h */,
+				E29DE97915C00D8900E138FF /* BaiduOAuthSdk.m */,
+			);
+			path = "baidu-oauth-ios";
+			sourceTree = "<group>";
+		};
 		E2E2540815BE2469007E16B5 = {
 			isa = PBXGroup;
 			children = (
+				E29DE97715C00D8800E138FF /* baidu-oauth-ios */,
 				E2E2541D15BE2469007E16B5 /* PCSNote */,
 				E2E2541615BE2469007E16B5 /* Frameworks */,
 				E2E2541415BE2469007E16B5 /* Products */,
@@ -82,6 +107,10 @@
 				E2E2542915BE2469007E16B5 /* MainStoryboard.storyboard */,
 				E2E2542C15BE2469007E16B5 /* ViewController.h */,
 				E2E2542D15BE2469007E16B5 /* ViewController.m */,
+				E27EE1C915BE33CC00C9E4C2 /* NoteContentViewController.h */,
+				E27EE1CA15BE33CC00C9E4C2 /* NoteContentViewController.m */,
+				E29DE97415C00C0500E138FF /* NotesListViewController.h */,
+				E29DE97515C00C0500E138FF /* NotesListViewController.m */,
 				E2E2541E15BE2469007E16B5 /* Supporting Files */,
 			);
 			path = PCSNote;
@@ -90,6 +119,9 @@
 		E2E2541E15BE2469007E16B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2E2543A15BE27BF007E16B5 /* yi_btn_default_normal_baidu.9.png */,
+				E2E2543B15BE27BF007E16B5 /* yi_btn_default_pressed_baidu.9.png */,
+				E2E2543815BE26AD007E16B5 /* login_icon.png */,
 				E2E2541F15BE2469007E16B5 /* PCSNote-Info.plist */,
 				E2E2542015BE2469007E16B5 /* InfoPlist.strings */,
 				E2E2542315BE2469007E16B5 /* main.m */,
@@ -150,6 +182,9 @@
 			files = (
 				E2E2542215BE2469007E16B5 /* InfoPlist.strings in Resources */,
 				E2E2542B15BE2469007E16B5 /* MainStoryboard.storyboard in Resources */,
+				E2E2543915BE26AD007E16B5 /* login_icon.png in Resources */,
+				E2E2543C15BE27BF007E16B5 /* yi_btn_default_normal_baidu.9.png in Resources */,
+				E2E2543D15BE27BF007E16B5 /* yi_btn_default_pressed_baidu.9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +198,9 @@
 				E2E2542415BE2469007E16B5 /* main.m in Sources */,
 				E2E2542815BE2469007E16B5 /* AppDelegate.m in Sources */,
 				E2E2542E15BE2469007E16B5 /* ViewController.m in Sources */,
+				E27EE1CB15BE33CC00C9E4C2 /* NoteContentViewController.m in Sources */,
+				E29DE97615C00C0500E138FF /* NotesListViewController.m in Sources */,
+				E29DE97A15C00D8900E138FF /* BaiduOAuthSdk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +312,7 @@
 				E2E2543315BE2469007E16B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
